@@ -1,8 +1,41 @@
-# 🏎️ Formula One Points Chart
+# 🏎️ Formula One Points Chart Comparison
 
 🔗 **[Live Demo](https://formulaonepointschart.vercel.app/)** &nbsp;|&nbsp; 📂 **[Repository](https://github.com/AMESocker/FormulaOnePointsChart)**
 
-An interactive data visualization tool for exploring Formula 1 driver and constructor standings across multiple seasons. Built with D3.js and powered by live F1 race data.
+An interactive visualization tool for comparing Formula 1 driver championship points across a season.
+
+## 🚀 Features
+- Compare up to 4 drivers simultaneously
+- Dynamic baseline (average or selected driver)
+- Team-based color coding with teammate differentiation
+- Podium finishes highlighted (P1, P2, P3)
+- Interactive driver selection and filtering
+
+## 🧩 Why I Built This
+I originally saw a discontinued app that showed the points gap between the top two drivers. I wanted to expand that idea to:
+- Compare any drivers, not just the top two
+- Include current season data
+- Provide more flexible and interactive analysis
+
+## 🛠 Key Design Decisions
+- Limited driver selection to maintain chart readability
+- Used an average baseline to highlight relative performance
+- Applied team colors and visual hierarchy for clarity
+- Balanced flexibility with usability in chart interactions
+
+## 🤖 Use of AI
+I used generative AI to accelerate development, especially for:
+- Integrating D3.js with the framework
+- Structuring state via URL parameters
+- Processing and formatting data
+
+I focused on designing the visualization logic and used AI to speed up implementation.
+
+## 🔮 Future Improvements
+- Configurable baseline (e.g., selected driver)
+- Locking drivers during selection
+- Expanding historical data coverage
+- Adding lap-time comparison visualizations
 
 ---
 
